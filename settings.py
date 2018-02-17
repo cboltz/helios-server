@@ -214,7 +214,7 @@ AUTH_DEFAULT_AUTH_SYSTEM = get_from_env('AUTH_DEFAULT_AUTH_SYSTEM', None)
 
 # who can create an election?
 # (parameter specific to openSUSE auth)
-ELECTION_CREATORS = []
+ELECTION_CREATORS = ['foobar']
 
 # google
 GOOGLE_CLIENT_ID = get_from_env('GOOGLE_CLIENT_ID', '')
